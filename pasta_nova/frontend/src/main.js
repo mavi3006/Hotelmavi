@@ -1,7 +1,7 @@
 import './style.css';
 
 // Configuração da API
-const API_BASE_URL = 'http://localhost:3000/api';
+const API_BASE_URL = 'https://hotelmavi.onrender.com/api';
 
 // Estado da aplicação
 let currentView = 'login'; // 'login' ou 'register'

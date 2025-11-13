@@ -202,6 +202,6 @@ app.get('/api/health', (req, res) => {
 // Iniciar servidor
 app.listen(PORT, () => {
   console.log(`Servidor rodando na porta ${PORT}`);
-  console.log(`Health check: http://localhost:${PORT}/api/health`);
+  console.log(`Health check: https://hotelmavi.onrender.com/api/health`);
 });
 
